@@ -1,0 +1,25 @@
+body {
+background-color:pink;
+}
+h2 {
+color:grey;
+font-family:gillsans;
+background-color:yellow;
+border: 3px solid fuchsia;
+margin-top:50px;
+padding:10px;
+}
+p {
+color:yellow;
+font-family:gillsans;
+}
+h3 {
+color:yellow;
+font-family:gillsans;
+}
+img {
+border: 2px solid fuchsia;
+width: 50%;
+height: 50%;
+margin-left:250px;
+}
