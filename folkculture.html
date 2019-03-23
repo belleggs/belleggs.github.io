@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>A Witch's Calendar, 1563-1736</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pygment_trac.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="vis.js"></script>
+<link href="vis.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1> A Witch's Calendar, 1563-1736</h1>
+        <p><small>a digital humanities project</small> <br> by Isabelle Briggs, MLIS '19</p>
+        <p class="view"><a href="index1.html">Home </a></p>
+        <p class="view"><a href="about.html">About </a></p>
+        <p class="view"><a href="witchhunting.html">Witch Hunting </a></p>
+        <p class="view"><a href="folkculture.html">☞ Folk Culture  </a></p>
+        <p class="view"><a href="calendarcustoms.html">Calendar Customs  </a></p>
+        <p class="view"><a href="conclusions.html">Conclusions </a></p>
+        
+      </header>
+      <section>
+    
+        <h1>Scottish Folk Culture <br>in the Early Modern Era</h1>
+        <p>✶</p>
+
+    <script src="../../dist/vis.js"></script>
+ 	 <link href="../../dist/vis.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+	<div id="visualization"></div>
+
+	<script type="text/javascript">
+  // DOM element where the Timeline will be attached
+  var container = document.getElementById('visualization');
+
+  // Create a DataSet (allows two way data-binding)
+  var items = new vis.DataSet([
+    {id: 1, content: 'Sabbath<br><em><small>Sunday<br>Christian observance</small></em>', start: '1563-01-06'},
+    {id: 2, content: 'Ruidday<br><em><small>May 3 or September 14<br> Invention of the Holy Cross Day</small></em>', start: '1563-05-03'},
+	{id: 3, content: 'All Saints Day<br><em><small>November 1</small></em>', start: '1563-11-01'},
+	{id: 4, content: 'Andrewmas<br><em><small>November 30<br>St Andrews Day</small></em>', start: '1563-11-30'},
+	{id: 5, content: 'Barthills Day<br><em><small>August 25<br>St Bartholomews Day</small></em>', start: '1563-08-25'},
+	{id: 6, content: 'Beltane<br><em><small>May 1<br>May Day, Quarter Day</small></em>', start: '1563-05-01'},
+	{id: 7, content: 'Borrowing Days<br><em><small>last three days of March</small></em>', start: '1563-03-29', end: '1563-03-31'},
+	{id: 8, content: 'Candlemas<br><em><small>February 2<br>Feast of the Presentation, Quarter Day</small></em>', start: '1563-02-02'},
+	{id: 9, content: 'Easter<br><em><small>movable</small></em>', start: '1563-04-21'},
+	{id: 10, content: 'Fastings Eve<br><em><small>movable<br>Shrove Tuesday</small></em>', start: '1563-03-06'},
+	{id: 11, content: 'Halloween<br><em><small>October 31<br>Quarter Day</small></em>', start: '1563-10-31'},
+	{id: 12, content: 'Handsel Monday<br><em><small>first Monday of the New Year</small></em>', start: '1563-01-07'},
+	{id: 13, content: 'Harvest<br><em><small>movable</small></em>', start: '1563-08-01', end: '1563-08-31'},
+	{id: 14, content: 'Holy Cross Day<br><em><small>September 13 or 14</small></em>', start: '1563-09-13'},
+	{id: 15, content: 'Lammas<br><em><small>August 1<br>Quarter Day</small></em>', start: '1563-08-01'},
+	{id: 16, content: 'Lent<br><em><small>movable<br>40 days preceding Easter</small></em>', start: '1563-03-07', end: '1563-04-21'},
+	{id: 17, content: 'Martinmas<br><em><small>November 11<br>St Martins Day</small></em>', start: '1563-11-11'},
+	{id: 18, content: 'Michaelmas<br><em><small>September 29<br>St Michaels Day</small></em>', start: '1563-09-29'},
+	{id: 19, content: 'Midsummer<br><em><small>movable<br>Summer Solstice</small></em>', start: '1563-06-24'},
+	{id: 20, content: 'Our Lady Day<br><em><small>August 16<br>St Marys Day, Harvest</small></em>', start: '1563-08-16'},
+	{id: 21, content: 'Saint Magnus Day<br><em><small>April 16</small></em>', start: '1563-04-16'},
+	{id: 22, content: 'Saint Thomas Eve<br><em><small>December 20</small></em>', start: '1563-12-20'},
+	{id: 23, content: 'Whitsunday<br><em><small>movable<br>Pentecost</small></em>', start: '1563-06-09'},
+	{id: 24, content: 'Yule<br><em><small>December 25<br>Christmas, Midwinter</small></em>', start: '1563-12-25'},
+ ]);
+
+  // Configuration for the Timeline
+  var options = {
+  maxheight: 200, 
+  };
+
+  // Create a Timeline
+  var timeline = new vis.Timeline(container, items, options);
+	</script>
+	<em><small>A timeline, set to the year of the passing of the Witchcraft Act, 1563, that shows all the named calendar customs identified in <a href="http://witches.shca.ed.ac.uk/">The Survey of Scottish Witchcraft Database</a> (with the exception of "Nuris Day," on which no information is available).</small></em> 
+		 <br><br><p>✶</p>
+      <p>Folk culture or belief is, like witch craft(or digital humanities), a hard thing to define - in some ways you know it when you see it. Or rather, you don’t? Lizanne Henderson defines folk culture as that which people “irrespective of status, creed or nationality, take for granted” and custom as “an invisible framework, which informs and sustains all aspects of folk belief and practice, while also acting to reinforce social cohesion within a society.” For F. Marian McNeill, author of <i> The Silver Bough: A Four Volume Study on the National and Local Festivals of Scotland</i> published in 1957, folk customs and festivals are “infinitely older than the nation itself,” because their origins predate the forming of nations and therefore “not national, but racial.” These are two somewhat opposing perspectives that illustrate the way that folkloristics, the study of folk culture, has changed over the 20th century. McNeill writes about folk culture as something intrinsic to a people who are unified perhaps not by national borders but by common ancestry. Since the origin of folklore as a field of serious academic study in the mid 19th century, this had been the predominant view. Henderson, on the other hand, uses a more inclusive definition of folk culture which suggests a system of beliefs and customs that can be practiced by anyone. </p>
+      <p>In the case of Scottish witch-hunts, an easy generalization to make is that folk practices and customs were seen, at the time, as antithetical to Christian ideology and worldview. However, as Henderson spends her whole book explaining, the dichotomy was not as simple as “pagans versus Christians.” For a start, observance of folk customs is not explicitly a religious act, therefore one could hypothetically go to church on Sunday and a harvest festival on Monday. Christianity may not be indigenous to the terrain known now as Scotland, but that does not mean it was only practiced as a total supplant of folk culture. Furthermore, not all Christians believed that witchcraft was real or that it was the work of the devil, and not all non-Christians believed in it either. Just because someone was superstitious about fairies, special holidays, witches or hexes, did not preclude or affirm them as believers in Christian doctrine. The reason for bringing up these points is to indicate that accusers and the accused in witchcraft trials might both have relationships to folk culture, and that superstition was not a one-sided weapon used by the pious. This reiterates the point that European and Scottish witch hunts were not always monolithic phenomenon supported en masse by the public or the clergy. The assumption that witch hunts were a way of stamping out folk culture and customs is not entirely correct. It’s equally likely that accusing individuals of practicing any kind of unorthodoxy was the most expedient way of condemning them. </p>
+      <p>Finally, it’s important to keep in mind that while folk culture is real and people in Scotland genuinely held certain specific beliefs about their world, however supernatural or foreign they may seem, witchcraft is not as concrete. In other words, folk culture is real and belief in witchcraft is a part of it, but that does not mean that witchcraft is real. Some practice recorded in a witchcraft accusation is not necessarily based on real folk practices, just as real folk practices are not the same as witchcraft. These are two parts of human belief and practice, that are related but distinct. Reading witchcraft accusations for evidence of real folk culture is a foolproof method, and any assumptions made about the folk culture should be cross-referenced against testimonials provided not under duress, malice, or coercion. </p>
+	 <br><p>✶</p>
+	 <p>Above is a scalable timeline of all the named calendar customs identified in the Survey of Scottish Witchcraft. The only omission is “Nuris Day,” which neither the original researchers at the University of Edinburgh nor myself were able to identify. Holidays that are assumed to not be commonly known have brief explanations given. It is interesting to note that the holidays identified are a list of both Christian and folk events, with some days hosting festivities for both affiliations. This speaks to the ways in which folk culture in Scotland is not always distinct from and oppositional to the Christian faith, but coexists with it. The timeline was constructed with <a href= "http://visjs.org/index.html#modules">vis.js</a>.</p>
+      
+      </section>
+      
+      <footer>
+        <p><small>This project was completed for Miriam Posner's graduate-level class <a href="http://miriamposner.com/classes/dh201w19/">"Introduction to Digital Humanities"</a> at UCLA, Winter 2019.</small> </p>
+        <p><small>Hosted on GitHub Pages ☓ Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+  </body>
+</html>
